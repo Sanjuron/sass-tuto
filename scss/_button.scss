@@ -1,0 +1,25 @@
+.button{
+    border : 1px solid gainsboro;
+    padding : 12px;
+    padding-top : 5px;
+    border-radius: 2px;
+    background-color: $color-primary;
+}
+
+.bouton {
+    background-color: white;
+    border: 1px solid grey;
+    padding: 8px 12px;
+    border-radius: 3px;
+    transition: background-color 0.3s linear;
+
+    &--primary {
+        background-color: $color-primary;
+        color: white;
+        border: none;
+    }
+
+    &:hover {
+        background-color: blue;
+    }
+}
